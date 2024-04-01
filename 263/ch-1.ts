@@ -9,12 +9,12 @@ $ node ch-1.js
 [ 4 ]
 */
 
-let tests = [
+const tests = [
     [1, 5, 3, 2, 4, 2],
     [1, 2, 4, 3, 5],
     [5, 3, 2, 4, 2, 1]
 ];
-let values = [2, 6, 4];
+const values = [2, 6, 4];
 
 for (let c = 0; c != tests.length; c++) {
     console.log(solve(tests[c], values[c]));    
